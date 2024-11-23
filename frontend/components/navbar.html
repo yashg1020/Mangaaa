@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kamado's Manga Reader</title>
+    <!-- Add Tailwind CSS CDN -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    <!-- Optional: Add custom styles -->
+     
+
+
+<nav class="container mx-auto px-6 py-4 bg-transparent">
+    <div class="flex items-center justify-between">
+        <div class="text-3xl font-bold text-white">
+            Kamado's Manga
+        </div>
+        <div class="hidden md:flex space-x-8">
+            <a href="/pages/home.html" class="nav-link text-white hover:text-indigo-500 transition-colors">Home</a>
+            <a href="/pages/manga-list.html" class="nav-link text-white hover:text-indigo-500 transition-colors">Library</a>
+            <a href="/pages/bookmarks.html" class="nav-link text-white hover:text-indigo-500 transition-colors">Bookmarks</a>
+            <a href="/pages/reading.html" class="nav-link text-white hover:text-indigo-500 transition-colors">Latest</a>
+            <a href="/pages/profile.html" class="nav-link text-white hover:text-indigo-500 transition-colors">Profile</a>
+        </div>
+        <div class="md:hidden">
+            <button class="text-white">
+                <svg class="h-6 w-6" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16M4 18h16" />
+                </svg>
+            </button>
+        </div>
+    </div>
+</nav>
